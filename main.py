@@ -10,7 +10,8 @@ import google.generativeai as genai
 # Configurar entorno y API
 os.environ["GRPC_VERBOSITY"] = "ERROR"
 os.environ["GRPC_TRACE"] = "none"
-genai.configure(api_key="AIzaSyB_RneLOHhl54nVTFa1nDbHX4odn17B5dM")  # 🔹 Reemplaza con tu API Key válida
+genai.configure(api_key=st.secrets["general"]["GOOGLE_API_KEY"])
+
 
 model = genai.GenerativeModel("gemini-2.0-flash")
 

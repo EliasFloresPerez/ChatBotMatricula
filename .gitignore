@@ -10,3 +10,13 @@ __pycache__/
 .ipynb_checkpoints
 # Ignorar archivos de credenciales
 credentials.json
+
+# Ignorar carpeta de configuración de Streamlit (contiene secrets)
+.streamlit/secrets.toml
+
+# (Opcional) Ignorar toda la carpeta .streamlit si no tienes otro archivo importante ahí
+.streamlit/
+
+# Ignorar notebooks temporales, logs y backups
+*.log
+*.bak

@@ -3,6 +3,7 @@ cachetools==6.2.1
 certifi==2025.10.5
 charset-normalizer==3.4.4
 colorama==0.4.6
+et_xmlfile==2.0.0
 google-ai-generativelanguage==0.6.15
 google-api-core==2.27.0
 google-api-python-client==2.185.0
@@ -16,6 +17,7 @@ grpcio-status==1.71.2
 httplib2==0.31.0
 idna==3.11
 oauthlib==3.3.1
+openpyxl==3.1.5
 proto-plus==1.26.1
 protobuf==5.29.5
 pyasn1==0.6.1
